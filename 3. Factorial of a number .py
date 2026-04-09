@@ -10,6 +10,7 @@
 # #  while loop
 # num = int(input("enter a number: "))
 # fact = 1
+
 # a = 1
 # while a <= num :
 #     fact = fact * a
@@ -19,7 +20,7 @@
 
 
 # # For loop
-# n =6
+# n = 6
 # if n < 0:
 #     print("number is negative or an zero ")
 # else:

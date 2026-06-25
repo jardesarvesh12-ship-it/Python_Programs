@@ -1,15 +1,19 @@
-lower =  int(input("enter a lower number")) 
-upper = int(input("enter a upper number")) 
+num = int(input("enter number :"))
 
-for num in range(lower, upper+1):
-    if num > 1:
-        for i in range(2,num):
-            if num%i  == 0:
-                break
-            else:
-                print(num)  
+x=0
+
+for i in range(1,num+1):
+    if(num%i==0):
+        x= x + 1
+
+if(x == 2):
+    print("prime number: ")
+else:
+    print("even number: ")
+
 
 
 
   
 
+5
